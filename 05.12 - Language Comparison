@@ -1,0 +1,83 @@
+1. Execution Model. Compiler VS interpreter
+    a) Language execution model
+        - Compiled languages
+            * source code is first compiled to machine code, then executed
+            * syntax errors are found during the compilation (at compile time)
+            * C#, Java, C, C++, Swift, Go, Rust
+        - Interpreted languages
+            * each command is read, parsed and executed by an interpreter
+            * syntax errors are found at run-time, during execuiton
+            * Python, JavaScript, PHP, Ruby
+    b) statically-typed VS dynamic-typed
+        - statically-typed languages perform type checking at compile time
+            * C#, Java, C++, Swift
+        - dynamically-typed languages perform type checking at runtime
+            * Python, JavaScript, PHP
+
+2. Variables. Declaring variables in C#, JavaScript and Python.
+    a) declaring variables in C#
+        - to declare a variable in C# you need to use the pattern : {data type} {variable name} = {value};
+            * int number = 5;
+            * string name = "Peter";
+            * bool isPassed = false;
+            * char gender = "f";
+            * double grade = 5.49;
+    b) declaring variables in JavaScript
+        - to declare a variable in JavaScript you need to use the keyword : let {variable name} = {value};
+            * let number = 5;
+            * let name = "Peter";
+            * let isPassed = true;
+            * let grade = 5.49;
+    c) declaring variables in Python
+        - Python has no keyword for declaring a variable
+        - variables do no need to be declared with any particular type
+            * first_number = 5
+            * name = "Peter"
+            * is_passed = False
+            * grade = 5.49
+
+3. Data types.
+    a) data types in C#
+        * integer - int, long
+        * real number - double, float
+        * text - string, char
+        * boolean - bool
+        * other - object
+    b) data types in JavaScript
+        - in JavaScript data types are inferred from the values
+            * number
+            * string
+            * boolean
+            * object
+            * null
+            * undefined
+    c) data types in Python
+        - in Python variables keep values of certain type. The data is inferred from the value.
+            * int
+            * float
+            * str
+            * boolean
+            * list
+
+4. Printing on the console.
+    a) printing on the console in C#
+        - printing and then going to a new line:
+            * Console.WriteLine("...");
+        - printing content and staying on the same line:
+            * Console.Write("...");
+        - printing and formatting
+            * Console.WriteLine($"{name} is {age}-years old.");
+    b) printing on the console in JavaScript
+        - printing and then going to a new line:
+            * console.log("...");
+        - printing content and staying on the same line:
+            * process.stdout.write("...");
+        - printing and formatting
+            * console.log($"{name}");
+    c) printing on the console in Python
+        - printing and then going to a new line:
+            * print("...")
+        - printing content and staying on the same line:
+            * print("...", end=")
+        - printing and formatting
+            * print(f"{name}")

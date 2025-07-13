@@ -1,0 +1,39 @@
+1. HTTP Protocol – Basics
+    a) HTTP (HyperText Transfer Protocol)
+        * Text-based client-server protocol for the Internet
+        * For transferring Web resources (HTML files, images, styles, etc.)
+        * Request-response based, relies on URLs (like https://softuni.org)
+        * Stateless
+    b) front-end and back-end
+        * front-end and back-end separate the modern apps into client-side and server-side components
+        * front-end - the client-side component. Implements the user interface
+        * back-end - the server-side component. Provides data storage and processing
+        * HTTP connects front-end and back-end
+
+2. HTML forms
+    * The "action" attribute defines where to submit the form data
+        <form action = "home.html">
+            <input type = "submit" value = "Go" />
+        </form>
+    * forms can specify the HTTP method for sending the form data
+        <form method = "get">     <---"post"
+            Name: <input type = "text" name = "name">
+            <br> </br>
+            <input type = "submit" value = "Go">
+        </form>
+
+3. HTTP response status codes.
+    * 200 - OK
+    * 201 - created
+    * 204 - no content
+    * 301/302 - moved
+    * 400 - bad request
+    * 401/403 - unauthorized
+    * 404 - not found
+    * 409 - conflict
+    * 500/503 - server error
+
+4. URL
+    * https://mysite.com:8080/demo/index.php?id=27&lang=en#lectures
+     |      ||          ||   ||             ||            ||       |
+     protocol   host      port     path       query string  fragment

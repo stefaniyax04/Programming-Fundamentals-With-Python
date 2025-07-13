@@ -1,0 +1,106 @@
+1. What is HTML?
+    * The HTML language describes Web content (Web pages)
+        - Text with formatting, images, lists, hyperlinks, tables, forms, etc.
+        - Uses tags to define elements in the Web page
+
+2. HTML Common Elements
+    a) Headings
+        * Headings: <h1> to <h6>
+            <h1>This is Heading 1 (Biggest)</h1>
+            <h2>This is Heading 2 (Smaller)</h2>
+            <h3>This is Heading 3 (Even Smaller)</h3>
+            <h4>This is Heading 4 (The smallest)</h4>
+    b) Paragraphs
+        * Paragraphs: <p></p>
+            <p>First paragraph</p>
+            <p>Second paragraph</p>
+            <p>Third paragraph</p>
+    c) Hyperlinks
+        * absolute hyperlink
+            <a href="https://softuni.bg">SoftUni</a>
+        * HTML hyperlink
+            <h1 id="exercises">Exercises</h1>
+            ...
+            See the <a href="#exercises" target="_blank">exercises</a>
+        * relative hyperlink
+            <a href="../2.%20HTML5-Overview.pptx">presentation</a>
+    d) images
+        * images are external files, inserted through the <img> tag
+            <img src="images/SoftUni-logo.png" />
+    e) ordered lists
+        * to create an ordered list use <ol></ol> each holding <li></li>
+            <ol>
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+            </ol>
+    f) unordered lists
+        * to create an unordered list use <ul></ul> each holding <li></li>
+            <ul>
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+            </ul>
+
+3. What is CSS?
+    * CSS defines styling of the HTML elements
+        - Specifies fonts, colors, margins, sizes, positioning, floating, …
+        - CSS rules format: selector { prop1:val1; prop2:val2; … }
+    a) element selector
+        * Selects all elements with the specified element name
+        * style all headings
+            h1 {
+                text-align: center;
+                color: #000;
+            }
+        * adding more white space after each paragraph
+            p {
+                padding-bottom: 15px;
+            }
+    b) class selector
+        * Uses the HTML class attribute, and is defined with a "."
+            .class {
+                text-align: center;
+            }
+            <h2 class="class">...</h2>
+        * Only one HTML tag can be specified to be affected by a class
+            p.right {
+                text-align: right;
+            }
+    c) id selector
+        * The #id selector styles the element with the specified id
+        * Uses the id attribute of the HTML element
+            <h1 id="header">My header</h1>
+        * defined with a "#" in the CSS
+            #header {
+                border: 1px solid #CCC;
+                border-width: 1px 0;
+            }
+    d) internal style sheet
+        * Put a <style> element in the HTML <head> section
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <style>
+                    .red {
+                        color: red;
+                    }
+                </style>
+            </head>
+            </html>
+    e) inline CSS style
+        * The style attribute in HTML elements
+            <h1 style="color:blue">This is a blue heading</h1>
+    f) block elements
+        * <div> and <p> are block elements(rectangles)
+            - fill the entire container width
+            - stack vertically one after another
+    g) inline elements
+        * <span> is an inline element
+            - its shape is not always rectangular
+            - can be split across multiple lines
+    h) inline-block elements
+        * rectangles arranged one after another
+        * just like words in a sentence
+
+

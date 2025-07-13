@@ -1,0 +1,71 @@
+1. List definition and usage
+    a) definition
+        * A list is a collection that is index supported and changeable (mutable)
+        * It allows duplicate members
+        * In Python lists are written with square brackets
+    b) usage
+        * Lists are very useful for storing multiple elements
+        * They can expand and shrink
+        * In Python a single list can store elements with different data types
+        * Lists are the basis for the other abstract data types like queues, stacks, and their variations
+
+2. Storing Data
+    * a list can store data of any type like : integers, floats, strings, objects, other lists, mixed data
+
+3. Creating lists
+    * Lists in Python can be created by just placing the sequence inside the square brackets
+    * Or using the list function
+    * A list may contain duplicate values
+    a) Splitting Strings to List
+        * You can use the split function to split a string and create a list
+            some_text = "a b c d"
+            my_list = some_text.split(" ")
+            print(my_list)
+    b) Joining Lists into a String
+        * You can create a string from a list using string.join()
+            my_list = ["a", "b", "c"]
+            print("-".join(my_list))
+        * The result of the join function is always a string
+        * In Python, you can only join a list of strings
+
+4. Accessing elements
+    a) using indices
+        * Use square brackets to get an element by an index
+        * Indices describe the position of an element
+        * We always start counting indices from 0
+            list_of_numbers = [1, 5, 7]
+            print(list_of_numbers[0])
+    b) Using the "-" Sign
+        * In Python you can use the negative sign to access an element
+        * The negative sign will start counting from the end of the list
+
+5. List manipulation
+    a) adding to a list
+        * use the append function to add a new element
+            empty_list = []
+            empty_list.append(1)
+    b) removing from a list
+        * use the remove function to remove a particular element
+            list_of_nums = [1, 2, 3, 4, 5]
+            list_of_nums.remove(3)
+
+6. Looping through lists
+    a) using for loop
+        * iterating over the elements
+            my_list = [ "cat", "dog"]
+            for element in my_list:
+                print(element, end=" ")
+        * using generated list with range
+            for index in range(len(my_list)):
+                print(my_list[index], end=" ")
+    b) using while loop
+        * You can also use while loops to iterate through a list
+
+7. Searching for elements
+    a) "in" keyword
+        * Use the keyword "in" to check if an element is in a list
+        * Usually the "in" keyword is used with if-else statements
+    b) "not in" keyword
+        * The "not in" keywords are used to check if an element is NOT in the list
+        * The "not in" keywords are also mainly used with if-else statements
+

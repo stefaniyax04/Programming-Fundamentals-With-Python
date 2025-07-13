@@ -1,0 +1,58 @@
+1. Software Configuration Management.
+    a) Version control ≈ Software Configuration Management (SCM) ≈ source control system
+        * A software engineering discipline
+        * Consists of techniques, practices and tools for working on shared source code and files
+        * Mechanisms for management, control and tracking the changes
+        * Defines the process of change management
+        * Keeps track of what is happening in the project over time
+        * Solves conflicts in the changes
+    b) Change Log
+        * Version control systems keep their own change log
+        * It shows who, when, why, what had been changed.
+        * Old versions can be restored
+    c) Vocabulary
+        * Repository(Repo) - holds the project in a remote server
+        * Clone - download a local copy of the remote project
+        * Commit - saves a set of changes locally
+        * Sync (Pull / Push)
+            - Pull – take and merge the changes from the Remote
+            - Push – send local changes to the Remote
+        * Merge and Merge Branches
+
+2. Git
+    a) What is Git?
+        * Git - distributed source-control system
+        * Free, open-source software
+        * Works with local and remote repositories
+        * Git bash – command line interface for Git
+    b) Basic Git Commands
+        * Cloning an existing Git repository
+            - git clone [remote url]
+        * Fetch and merge the latest changes from the remote repository
+            - git pull
+        * Preparing (adding / selecting) files for a commit
+            - git add [filename] ("git add ." adds everything)
+        * Committing to the local repository
+            - git commit –m "[your message here]"
+        * Check the status of your local repository (see the local changes)
+            - git status
+        * Creating a new local repository (in the current directory)
+            - git init
+        * Creating a remote (assign a short name for remote Git URL)
+            - git remote add [remote name] [remote url]
+        * Pushing to a remote (send changes to the remote repository)
+            - git push [remote name] [local name]
+
+3. GitHub
+    a) What is GitHub?
+        * GitHub is the world's #1 source code hosting site
+        * Free for open-source projects
+        * GitHub provides
+            - Git source code repository
+            - Issue tracker (bug tracker)
+            - Project board (Kanban style)
+            - Wiki pages (documentation)
+            - Code reviews (pull requests)
+            - Build system (actions)
+            - Site hosting (pages)
+            - Discussions (forum)

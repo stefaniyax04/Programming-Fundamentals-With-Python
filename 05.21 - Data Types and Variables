@@ -1,0 +1,70 @@
+1. What is a data type?
+    * A classification that specifies which type of value a variable has and what type of operations can be applied
+      to it
+    * In Python we have the following data types:
+        - Numeric Types: int, float, complex, decimal
+        - Text Type: str
+        - List, Set, Tuple, Dictionary
+        - Boolean
+    a) Data Types are Dynamic
+        * Python is a dynamic language
+        * Variables are not directly associated with any particular value type
+        * Any variable can be assigned (and re-assigned) values of all types
+    b) Check the Type of a Variable
+        * The type() function helps you find the type of the variable
+        * The isinstance() function checks if the specified object is of the specified type
+
+2. Strings
+    a) What is a string?
+        * Used to represent textual data
+        * Each element in the String occupies a position in the String
+        * The first element is at index 0, the next at index 1, and so on
+        * The length of a String is the number of elements in it
+    b) String Literal
+        * String literals in Python are surrounded by either single quotation marks or double quotation marks:
+          'hello' is the same as "hello"
+        * The len() method returns the length of a string
+    c) Strings are Immutable
+        * Unlike in languages like C, Python strings are immutable
+        * This means that once a string is created, it is not possible to modify it
+    d) String Interpolation
+        * These are string literals that allow embedded expressions
+
+3. Numbers
+    a) Integers
+        * Int or integer is a whole number, positive or negative, without decimals, of unlimited length
+        * Python integers are immutable
+    b) Float
+        * Float is a floating-point real number, positive or negative, written with a decimal point dividing the
+          integer and fractional parts, of unlimited length
+        * Python floats are immutable
+
+4. Booleans
+    a) What is a Boolean?
+        * Boolean represents a logical entity and can have two values : True and False
+        * You can use the bool() function to find out if an expression (or a variable) is true
+    b) Comparisons and Conditions
+        * == - equals
+        * != - not equal
+        * < - less than
+        * <= - less than or equal
+        * > - greater than
+        * >= - greater than or equal
+        * in - item in sequence
+
+5. Additional Datatypes
+    a) List
+        * A list contains items separated by commas and enclosed within square brackets
+    b) Tuple
+        * A tuple is a collection which is ordered and unchangeable. In Python, tuples are written with round brackets
+    c) Set
+        * A set is a collection which is unordered and unindexed. Sets are written with curly brackets.
+    d) Dictionary
+        * A dictionary is a collection that is ordered, changeable, and indexed. They have value and key.
+
+6. None keyword
+    a) What is None?
+        * The None keyword is used to define a null value or no value at all
+        * There are two ways to check if a variable is None :
+            - One way can be performed by using the is keyword
+            - Another is using the == syntax
