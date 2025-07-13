@@ -1,0 +1,91 @@
+1. Front-End
+    a) web front-end and DOM
+        * web front-end technologies
+            - HTML, CSS, JavaScript, DOM, AJAX
+            - JS front-end frameworks(e.g. React, Angular)
+        * DOM (the document object model)
+            - DOM == a tree of UI and other elements
+            - documents in the Web browser are represented by a DOM tree
+            - the DOM API allows changing the DOM from JS
+    b) using DOM - example
+        <input type="text" id="firstNum" /> +
+        <input type="text" id="secondNum" /> =
+        <input type="text" id="sum" />
+        <button id="calc">Calc</button>
+        <script>
+            document.getElementById("calc").onclick = function() {
+                document.getElementById("sum").value =
+                    Number(document.getElementById("firstNum").value) +
+                    Number(document.getElementById("secondNum").value);
+            }
+        </script>
+    c) AJAX and restful APIs
+        * AJAX is a technology for asynchronous execution of HTTP requests from client-side JavaScript
+        * RESTFUL APIs are HTTP-based Web services
+            - the HTTP methods GET, POST, PUT and DELETE retrieve, create, modify and delete data
+    d) Templating engines
+        * Templating engines render data as HTML through a template
+    e) Routing and Routing Libraries
+        * routing is about switching between different UI views, based on the changes of the current URL(holding the route)
+    f) User Interface and Front-End Frameworks
+        * Graphical User Interface (GUI) systems provide forms, dialogs and UI controls for desktop and mobile apps
+        * Mobile UI toolkits/frameworks provide UI controls and structure for mobile apps
+        * Web front-end frameworks and UI libraries provide user interface elements and structure for Web apps
+    g) Libraries vs Frameworks
+        * Libraries provide components/functionality/UI controls for integration into existing apps
+            - the app controls the library components
+        * development frameworks are foundations, which developers extend to build an app
+            - the framework controls the app lifecycle and your code plugs in it
+    h) react
+        * react is a powerful JavaScript library from Facebook for building Web UI using HTML, CSS and JS
+    i) Mobile Apps – Technologies
+        * two major mobile app platforms : Android and IOS
+        * mobile app development technologies:
+            - android : java/kotlin+android SDK+android studio
+            - IOS : swift+IOS SDK+Xcode+Mac
+
+2. Back-End
+    a) back-end technologies
+        * Back-end technologies are about server-side programming
+            - data management technologies and ORM frameworks
+            - backend Web frameworks and MVC frameworks
+            - REST API frameworks. reactive APIs
+            - Microservices, containers, cloud
+        * back-end developers work on the server-side
+            - they deal with the business logic, data processing, data storage, APIs
+    b) database
+        * database hold and manage data in the back-end system
+        * relational database(RDBMS)
+            - hold data in tables+relationships
+            - use the SQL language to query/modify data
+        * NoSQL databases
+            - hold collections of documents or key-value pairs
+    c) ORM frameworks
+        * ORM frameworks (object-relational mapping) allow persisting objects in relational database (by mapping classes to tables)
+        * popular ORM frameworks
+            - SQLAlchemy (Python)
+    d) the model-view-controller(MVC) pattern
+        * controller
+            - handles user action
+            - updates the model
+            - renders the view
+        * model
+            - holds app data
+        * view
+            - displays the UI, based on the model data
+    e) Virtualization and Cloud
+        * Virtualization == running a virtual machine (VM) / virtual environment inside a physical hardware system
+        * Cloud == computing resources, virtual machines, storage, platforms and software instances, available on demand
+    f) Containers and Docker
+        * Container image == software, packaged with its dependencies, designed to run in a virtual environment (like Docker)
+        * Docker is the most popular containerization platform
+            - runs containers from local image or downloaded from the Docker Hub online repository
+            - open-source
+    g) operating systems
+        * Working with operating systems (Linux, Windows, others) is an important skill for software engineers
+            - installation, configuration and basic system administration
+            - process management, file system, users and permissions
+        * sample linux shell commands
+            - create a file : cat > hello.txt
+            - rename a file : mv hello.txt welcome.txt
+            - view file contents: cat welcome.txt

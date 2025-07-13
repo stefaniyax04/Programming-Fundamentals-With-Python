@@ -1,0 +1,64 @@
+1. Object Oriented Programming
+    a) What is OOP?
+        * OOP is a programming paradigm
+        * Provides a means of structuring programs so that properties and behaviors are bundled into individual objects
+        * Objects are at the center of the OOP paradigm
+    b) example
+        * An object-oriented program consists of objects that interact with each other
+
+2. Classes. Temple for Objects
+    a) class definition
+        * a class is like a blueprint for creating objects
+        * classes provide a means of bundling data and functionality together
+        * each class instance can have attributes attached to it
+        * class instance can also have methods for modifying its state
+    b) the __init()__ function
+        * all classes create objects, and all objects contain characteristics called attributes
+        * the __init()__ method initializes an object's initial attributes by giving them their default value
+        * the double leading and trailing underscore is used for special variables or methods
+    c) the self variable
+        * the self parameter is a reference to the current instance of the class
+        * used to access variables that belong to the class
+        * when defining an instance method, the first parameter of the method should always be self
+    d) class example
+        * create a class Person that has first name, last name, and age
+            class Person:
+                def __init(self, first_name, last_name, age=0):
+                    self.first_name = first_name           |
+                    self.last_name = last_name         (default value)
+                    self.age = age
+        * when a parameter is optional, but a default value that is should have
+
+2. Objects. Instance of classes.
+    a) object definition
+        * instance is a concrete object of the type of the class
+        * a class is like a form of template
+            - it defines the needed information
+        * you can fill out multiple copies, but without the form, you will not know the required information
+    b) object example
+        * using the person class we created, here we have an example of the instance of the class
+            me = Person("Peter", "Johnson", 25)
+            print(me.first_name)
+            print(me.last_name)
+            print(me.age)
+    c) modifying attributes
+        * you can change the values of the attributes of an object after initialization
+            me = Person("Peter", "Johnson", 25)
+            me.age += 1
+            print(me.age)
+
+3. Class attributes and instance methods
+    a) class attributes
+        * while instance attributes are specific to each object, class attributes are the same for all instances
+            class Person:
+                species = "mammal"
+                def __init(self, name, age):
+                    self.name = name
+                    self.age = age
+                me = Person("Peter", 25)
+                you = Person("John", 44)
+    b) instance methods
+        * instance methods are defined inside a class and are used to get the contents of an instance
+        * they can also be used to perform operations with the attributes of out objects
+        * like the __init()__ method, the first argument should always be self
+                     
