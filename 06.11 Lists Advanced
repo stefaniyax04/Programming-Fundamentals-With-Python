@@ -1,0 +1,76 @@
+1. List Comprehensions
+    a) What is Comprehension?
+        * Comprehensions provide us with a short way to construct new sequences
+        * They allow sequences to be built from other sequences
+        * They require less memory
+        * They have shorter syntax and better performance
+    b) Structure
+        * an input sequence
+        * a variable representing members of the input sequence
+        * an optional predicate expression
+        * an output expression producing elements in the output list
+    c) List Comprehensions
+        * Creating a list using the range function
+            x = [num for num in range(5)]
+        * Using if statement in a list comprehension
+            nums = [1, 2, 3, 4, 5, 6]
+            evens = [num for num in nums if num % 2 == 0]
+        * Using if-else statements in a list comprehension
+            nums = [1, 2, 3, 4, 5, 6]
+            filtered = [True if x % 2 == 0 else False for x in nums]
+
+2. List Methods
+    * Using the append() method
+        my_list = [1, 2, 3]
+        my_list.append(4)
+    * Using the extend() method
+        my_list = [1, 2, 3]
+        my_list.extend([4, 5])
+    * Using the insert() method
+        my_list = [1, 2, 3]
+        my_list.insert(1, 4)
+    * Using the clear() method
+        my_list = [1, 2, 3]
+        my_list.clear()
+    * Using the pop() method
+        my_list = [1, 2, 3]
+        number = my_list.pop(0)
+    * Using the remove() method
+        my_list = [1, 2, 3]
+        my_list.remove(1)
+
+3. More Useful Methods
+    * Using the count() method
+        my_list = [1, 2, 3, 2, 2]
+        my_list.count(2)
+    * Using the index() method
+        my_list = [1, 2, 3, 2, 2]
+        last = my_list.index(2)
+    * Using the reverse() method
+        my_list = [1, 2, 3, 2, 2]
+        my_list.reverse()
+
+4. Advanced Functions. Using lambda operators
+    a) sorted() function
+        * Sorts the elements of a list in ascending order
+            numbers_list = [6, 2, 1, 4, 3, 5]
+            sorted_numbers = sorted(numbers_list)
+        * Sorts the elements of a list in descending order
+            numbers_list = [6, 2, 1, 4, 3, 5]
+            sorted_numbers = sorted(numbers_list, key=lambda x: -x)
+    b) map() function
+        * Use it to convert a list of strings to a list of integers
+            strings_list = ["1", "2", "3", "4"]
+            numbers_list = list(map(int, strings_list))
+        * It applies a function to every item of an iterable
+            numbers_list = [1, 2, 3, 4]
+            doubled_list = list(map(lambda x: x*2, numbers_list))
+        * It returns an iterator object, so you need to convert it into a list
+    c) filter() function
+        * Use it to filter elements that fulfill a given condition
+            numbers_list = [1, 2, 3, 4, 5, 6]
+            even_numbers = list(filter(lambda x: x % 2 == 0, numbers_list))
+        * The lambda should return either True or False
+        * It returns an iterator object, so you need to convert it into a list
+
+

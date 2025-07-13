@@ -1,0 +1,89 @@
+1. The 4 Skills of Software Engineers
+    * 4 main groups of technical skills
+        - Coding skills: 20%
+        - Algorithmic thinking: 30%
+        - Fundamental software development concepts: 25%
+        - Programming languages and software technologies: 25%
+    a) Coding
+        * The skill to write code
+            - Working with commands, IDE, variables, data and calculations, conditional statements, loops
+            - Using functions (or methods) and objects
+            - Working with data structures (arrays, lists, maps and others), libraries and APIs
+    b) Algorithmic thinking
+        * Algorithmic (engineering, mathematical) thinking
+            - The ability to analyze problems and find solutions
+            - Breaking the problem down to steps (algorithm)
+    c) Concepts
+        * Fundamental software development concepts
+            - Object-oriented programming (OOP)
+            - Functional programming (FP)
+            - Asynchronous programming and parallel execution
+            - Databases: relational DB, SQL, document DB, key-value model
+            - Web technologies: HTTP, JS, DOM, AJAX, REST...
+            - Software engineering: source control, agile ...
+    d) Languages & Tehnologies
+        * The programming languages and technologies come always together (as a technology stack)!
+
+2. Fundamental Software Engineering Concepts
+    a) Math Concepts in Software Development
+        * Basic mathematical concepts related to programming
+            - Coordinate systems (used in computer graphics)
+            - Mathematical functions (lambda calculus, discrete functions, …)
+            - Vectors and matrices (used in graphics, machine learning, …)
+            - Finite state automata and state machines (used in parsers)
+            - Statistics concepts (used in machine learning)
+            - Algorithm complexity (estimate the speed)
+            - Mathematical modeling
+    b) Object-Oriented Programming (OOP)
+        * Object-Oriented Programming (OOP) is the concept of using classes and objects (class instances) to model
+          the real world
+    c) Inheritance and Interfaces
+        * Inheritance allows classes to inherit data and functionality from a parent class (base class)
+            - Interface – defines abstract actions. Actions to be implemented in descendent classes
+            - Abstract class – abstraction, e.g. Figure. Defines data + actions + abstract actions
+            - Concrete class – e.g. Circle, Rectangle. Defines data + concrete functionality
+    d) Functional Programming
+        * Programming by composing pure functions, avoiding shared state, mutable data, and side-effects
+        * Pure function == function, which returns value only determined by its input, without side effects
+    e) Functional Programming Languages
+        * Purely functional languages are unpractical and rarely used
+            - The program is pure function without side effects, e.g. Haskell
+        * Impure functional languages
+            - Emphasize functional style, but allow side effects, e.g. Clojure
+        * Multi-paradigm languages
+            - Combine multiple programing paradigms: functional, structured, object-oriented, …
+    f) Lambda and First-Class Functions
+        * Lambda functions: anonymous function (formula)
+            - lambda x: 2 * x
+    g) Data Structures
+        * Data structures are representations of data in the computer memory, which allow efficient
+          access and modification
+        * Linear data types: arrays, lists, stacks, queues
+    h) Data Structures and Algorithms
+        * Trees and tree-like data structures
+            - Each node holds data + list of child nodes + parent node
+        * Tree traversal algorithms
+            - Depth-Fisrt Search (DFS)
+            - Breadth-First Search (BFS)
+
+3. Front-end and back-end
+    * Front-end and back-end separate the modern apps into client-side (UI) and server-side (data) components
+    * Front-end == client-side components (presentation layer). Implement the user interface (UI)
+    * Back-end == server-side components (data and business logic APIs).  Implements data storage and processing
+    a) Front-end technologies
+        * Web front-end: HTML + CSS + JavaScript + JS libraries
+        * Web front-end frameworks: React, Angular, Vue, Flutter
+        * Desktop front-end: XAML (Microsoft), UIKit (Apple)
+        * Mobile front-end: Android UI, SwiftUI
+        * Hybrid mobile front-end: React Native, Ionic
+        * Front-end developers deal with UI, UX and front-end technologies and frameworks
+    b) Back-End Technologies
+        * Back-end technologies: server-side frameworks and libraries
+        * Python back-end: Django / Flask, Django ORM / SQLAlchemy ...
+        * Back-end developers deal with the business logic, data processing, data storage, APIs
+    c) Full-stack development
+        * Combines back end + front-end
+        * Requires end-to-end architecture, design and implementation
+        * Build back-end services: business logic, data processing, data storage, databases, server-side APIs, containers and cloud
+        * Build front-end apps: Web, mobile and desktop UI
+        * Connect and integrate the front-end with the back-end
